@@ -1,11 +1,14 @@
-body {
 
+.rs7-sp {
+  padding: 1.25rem 1.875rem 4.375rem;
+  -webkit-column-count: 2;
+  column-count: 2;
+  -webkit-column-gap: 1.25rem;
+  column-gap: 1.25rem;
+  text-align: left;
 }
-h1{
-
-}
-img{
-
+.rs7-sp p {
+  margin: 0 0 1.25rem 1.25rem;
 }
 .rs7-specs {
 	text-align: center;
@@ -18,8 +21,9 @@ img{
   color: rgb(0, 0, 0);
   border: thick solid black;
 }
-.rs7-sp{
-  font-family: Charter,Georgia,Times,Serif;
+
+.rs7-specs{
+  font-family: Georgia,Times,Serif;
   font-size: 0.875rem;
   line-height: 1.6;
   padding: 1.25rem 1.875rem 1.875rem;
