@@ -7,3 +7,21 @@ h1{
 img{
 
 }
+.rs7-specs {
+	text-align: center;
+  position: relative;
+  margin: 1.25rem auto;
+  max-width: 40.25rem;
+  overflow: hidden;
+  height: auto;
+  background-color: rgb(241, 247, 247);
+  color: rgb(0, 0, 0);
+  border: thick solid black;
+}
+.rs7-sp{
+  font-family: Charter,Georgia,Times,Serif;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  padding: 1.25rem 1.875rem 1.875rem;
+  text-align: center;
+}
