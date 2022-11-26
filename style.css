@@ -1,5 +1,4 @@
-
-.rs7-sp {
+.sp {
   padding: 1.25rem 1.875rem 4.375rem;
   -webkit-column-count: 2;
   column-count: 2;
@@ -7,11 +6,13 @@
   column-gap: 1.25rem;
   text-align: left;
 }
-.rs7-sp p {
+
+.sp p {
   margin: 0 0 1.25rem 1.25rem;
 }
-.rs7-specs {
-	text-align: center;
+
+.specs {
+  text-align: center;
   position: relative;
   margin: 1.25rem auto;
   max-width: 40.25rem;
@@ -22,13 +23,14 @@
   border: thick solid black;
 }
 
-.rs7-specs{
-  font-family: Georgia,Times,Serif;
+.specs {
+  font-family: Georgia, Times, Serif;
   font-size: 0.875rem;
   line-height: 1.6;
   padding: 1.25rem 1.875rem 1.875rem;
   text-align: center;
 }
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -36,7 +38,8 @@ ul {
   overflow: hidden;
   background-color: #333;
 }
-.r8{
+
+.r8 {
   text-align: center;
   border: thick solid #333;
   background-color: rgb(241, 247, 247);
@@ -45,11 +48,10 @@ ul {
   margin: 1.25rem auto;
   overflow: hidden;
   height: auto;
-  
 }
+
 li {
   float: left;
-  
 }
 
 li a {
@@ -67,29 +69,38 @@ li a:hover:not(.active) {
 .active {
   background-color: #04AA6D;
 }
-.r8-1{
-    color:black;
-    display: block;
-    font-family: Gliko,Georgia,Times,Serif;
-    font-weight: 400;
-    margin-bottom: 0;
-    margin-top: 0;
-    -webkit-text-decoration: none;
-    text-decoration: none;
+
+.r8-1 {
+  color: black;
+  display: block;
+  font-family: Gliko, Georgia, Times, Serif;
+  font-weight: 400;
+  margin-bottom: 0;
+  margin-top: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
-.index-h1{
+
+.index-h1 {
   text-align: center;
-  font-size:x-large;
+  font-size: x-large;
 }
-.rs7-h1{
+
+.rs7-h1 {
   text-align: center;
-  font-size:x-large;
+  font-size: x-large;
 }
-.rs5-h1{
+
+.rs5-h1 {
   text-align: center;
-  font-size:x-large;
+  font-size: x-large;
 }
-.rs3-h1{
+
+.rs3-h1 {
   text-align: center;
-  font-size:x-large;
+  font-size: x-large;
+}
+.r8-h1 {
+  text-align: center;
+  font-size: x-large;
 }
