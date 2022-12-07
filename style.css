@@ -78,7 +78,7 @@ li a {
 	height: auto;
 }
 img{
- 	width:500px;
+ 	width: 500px;
 	height: auto;
 }
 .index-r8{
@@ -105,4 +105,16 @@ img{
 .card button{
 	background-color: #333;
 }
-
+.full.half-1000{
+	text-align: center;
+	font-family:	Georgia, Times, Serif;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.full.half-1000 img{
+	width: 100%;
+	height: auto; 
+}
+.half.fourth-1000{
+	background-color: white;
+}
