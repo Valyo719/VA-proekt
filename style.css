@@ -90,6 +90,7 @@ img{
 	height: auto;
 }
 .footer-index{
+	
   text-align: center;
   padding: 3px;
   background-color:#333;
@@ -117,4 +118,8 @@ img{
 }
 .half.fourth-1000{
 	background-color: white;
+}
+.index-div{
+	margin-left: 50px;
+	margin-right:50px;
 }
