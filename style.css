@@ -26,6 +26,8 @@
   text-align: center;
 }
 ul {
+  background-image: url(snimki/tracks.jpeg);
+  display: block;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -45,12 +47,20 @@ ul {
 li {
   float: left;
 }
-li a {
+.logo-nav{
+  background-color: none;
+}
+.nav-a{
+  
+  background-color: rgba(0,3,3,0.4);
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
 }
 .index-r8{
   position: relative;
@@ -72,6 +82,14 @@ li a {
   font-size: x-large;
 	padding-left: 50px;
 	padding-right: 50px;
+}
+.h1 p{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.liniq{
+  border-bottom-style: solid;
+  margin-bottom: 60px;
 }
 .favicon{
 	width: auto;
@@ -106,19 +124,77 @@ img{
 .card button{
 	background-color: #333;
 }
-.full.half-1000{
-	text-align: center;
-	font-family:	Georgia, Times, Serif;
-	
-}
-.full.half-1000 img{
-	width: 100%;
-	height: auto; 
-}
-.half.fourth-1000{
-	background-color: white;
-}
 .index-div{
 	margin-left: 50px;
 	margin-right:50px;
+}
+.column {
+  float: left;
+  padding: 10px;
+}
+.column.side {
+  width: 25%;
+ background-color: transparent;
+}
+.column.middle {
+  width: 50%;
+  text-align: center;
+	font-family:	Georgia, Times, Serif;	
+}
+.column.middle h2{
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: rgb(255, 187, 61);
+}
+.column.middle img{
+  width: 100%;
+	height: auto; 
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 1200px) {
+  .column.side{
+    width: 15%;
+  } .column.middle {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 801px) {
+  .column.middle h2 {
+    font-size: 40px;
+  }
+  .column.middle p{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .column.side{
+    width: 10%;
+  } 
+  .column.middle {
+    width: 80%;
+  }
+  .column.middle h2{
+    font-size: 30px;
+  }
+  .column.middle p{
+    font-size:20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .column.side{
+    width: 5%;
+  } 
+  .column.middle {
+    width: 90%;
+  }
+  .column.middle h2{
+    font-size: 30px;
+  }
+  .column.middle p{
+    font-size:20px;
+  }
 }
