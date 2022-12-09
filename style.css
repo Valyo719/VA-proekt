@@ -1,3 +1,6 @@
+/*body{
+	line-height: 2.1;
+}*/
 .sp {
   padding: 1.25rem 1.875rem 4.375rem;
   column-count: 2;
@@ -51,7 +54,6 @@ li {
   background-color: none;
 }
 .nav-a{
-  
   background-color: rgba(0,3,3,0.4);
   display: block;
   color: white;
@@ -80,12 +82,21 @@ li a:hover {
   font-family: Georgia, Times, Serif;
   text-align: center;
   font-size: x-large;
-	padding-left: 50px;
-	padding-right: 50px;
+}
+.h1 h1{
+	padding-left:10%;
+	padding-right:10%;
 }
 .h1 p{
   padding-left: 50px;
   padding-right: 50px;
+}
+.index-div .h1{
+	margin-left: 50px;
+	margin-right:50px;
+	/*text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: rgb(255, 187, 61);*/
 }
 .liniq{
   border-bottom-style: solid;
@@ -108,10 +119,9 @@ img{
 	height: auto;
 }
 .footer-index{
-	
+  background: linear-gradient(to top, rgba(0,3,3,0.8), rgba(0,3,3,0.2)), url(snimki/tracks.jpeg) no-repeat top center;
   text-align: center;
   padding: 3px;
-  background-color:#333;
   color: white;
 }
 .footer-index a{
@@ -123,10 +133,6 @@ img{
 }
 .card button{
 	background-color: #333;
-}
-.index-div{
-	margin-left: 50px;
-	margin-right:50px;
 }
 .column {
   float: left;
@@ -185,6 +191,9 @@ img{
   }
 }
 @media screen and (max-width: 500px) {
+	.h1{
+		font-size:20px;
+	}
   .column.side{
     width: 5%;
   } 
