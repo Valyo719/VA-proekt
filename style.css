@@ -1,6 +1,6 @@
-/*body{
-	line-height: 2.1;
-}*/
+body{
+	padding-top: 70px;
+}
 .sp {
   padding: 1.25rem 1.875rem 4.375rem;
   column-count: 2;
@@ -47,22 +47,17 @@ ul {
   overflow: hidden;
   height: auto;
 }
-li {
-  float: left;
+#nav-img{
+ 	width: 60px;
+	height:50px;
 }
-.logo-nav{
-  background-color: none;
-}
-.nav-a{
-  background-color: rgba(0,3,3,0.4);
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-li a:hover {
-  background-color: #111;
+nav{
+	height:4em;
+	background-color: grey;
+	/*background-image: url(snimki/tracks.jpeg);
+*/}
+.button.icon-puzzle{
+	background-color: #333;
 }
 .index-r8{
   position: relative;
