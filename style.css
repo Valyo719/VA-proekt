@@ -95,9 +95,9 @@ nav {
 .h1 h1 {
   padding-left: 10%;
   padding-right: 10%;
-  text-decoration-line: underline;
+  /*text-decoration-line: underline;
   text-decoration-style: solid;
-  text-decoration-color: rgb(255, 187, 61);
+  text-decoration-color: rgb(255, 187, 61);*/
 }
 
 .h1 p {
