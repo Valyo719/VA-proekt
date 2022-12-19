@@ -1,5 +1,5 @@
 body {
-  padding-top: 70px;
+
   background-color: white;
 }
 
@@ -34,15 +34,6 @@ body {
   text-align: center;
 }
 
-ul {
-  background-image: url(snimki/tracks.jpeg);
-  display: block;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
 
 .r8 {
   text-align: center;
@@ -55,21 +46,14 @@ ul {
   height: auto;
 }
 
-#nav-img.logo {
+#nav-img{
   width: 130px;
   height: 50px;
 }
-
 nav {
   height: 4em;
   background-color: white;
 }
-
-.button.icon-puzzle {
-  background-color: #333;
-  color: white;
-}
-
 .index-r8 {
   position: relative;
   width: auto;
@@ -133,11 +117,6 @@ img {
   height: auto;
 }
 
-.card img {
-  width: auto;
-  height: auto;
-}
-
 .footer-index {
   background: linear-gradient(to top, rgba(0, 3, 3, 0.8), rgba(0, 3, 3, 0.2)), url(snimki/tracks.jpeg) no-repeat top center;
   text-align: center;
@@ -148,14 +127,6 @@ img {
 .footer-index a {
   padding: 15px;
   color: orange;
-}
-
-.card footer {
-  text-align: center;
-}
-
-.card button {
-  background-color: #333;
 }
 
 .column {
