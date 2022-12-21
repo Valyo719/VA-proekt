@@ -4,21 +4,56 @@
 <head>
 	<link rel="stylesheet" href="bootstrap.css">
 	<link rel="stylesheet" href="style.css">
+	 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 	<meta charset="UTF-8">
 	<title>Audi R8</title>
 	<link rel="icon" type="png" href="snimki/favicon.png">
 </head>
 
 <body>
-	<nav>
+	<!---<nav>
 		<a href="index.html">
 			<img src="snimki/logo-cars2.png" id="nav-img">
 		</a>
-		<a href="r8.html">Audi R8</a></li>
-		<a href="rs7.html">Audi RS7</a></li>
-		<a href="rs5.html">Audi RS5</a></li>
-		<a href="rs3.html">Audi RS3</a></li>
-	</nav>
+		<a href="r8.html">Audi R8</a>
+		<a href="rs7.html">Audi RS7</a>
+		<a href="rs5.html">Audi RS5</a>
+		<a href="rs3.html">Audi RS3</a>
+	</nav>--->
+		<nav class="navbar fixed-top navbar-expand-lg bg-light">
+			<div class="container-fluid">
+				<a href="index.html">
+				  <img id="nav-img" src="snimki/favicon.png">
+				</a>
+ <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active"  href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle"role="button" data-bs-toggle="dropdown">
+            Dropdown link
+          </a>
+          <ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="r8.html">Audi R8 2023</a></li>
+            <li><a class="dropdown-item" href="rs7.html">Audi RS7 2020</a></li>
+            <li><a class="dropdown-item" href="rs5.html">Audi RS5 2022</a></li>
+            <li><a class="dropdown-item" href="rs3.html">Audi RS3 2022</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+			</div>
+		</nav>
 
 
 
@@ -34,11 +69,15 @@
 				<div class="liniq">
 					<p></p>
 				</div>
+				<img class="img-one" src="snimki/r8.jpg">
+<div class="liniq1">
+					<p></p>
+				</div>
 				<div class="row">
 					<div class="col-6">
-				<img class="float-end" src="snimki/r8.jpg"></div>
+				<img class="end" src="snimki/r8-1.jpg"></div>
 				<div class="col-6">
-				<h2>The last V10</h2>
+				<h2 class="main-h2">The last V10</h2>
 				<p>Well, this is finally the end. Both for Audi's 5.2-liter V-10 screamer—and V-10s in general—as well
 					as
 					its
@@ -47,9 +86,12 @@
 					the rest of the R8 coupe and spyder lineup, the last variant.</p>
 					</div>
 					</div>
+<div class="liniq1">
+					<p></p>
+				</div>
 					<div class="row">
-				<img class="float-start" src="snimki/r8-1.jpg">
-				<h2>What’s Special about the Special Edition</h2>
+<div class="col-6">
+				<h2 class="main-h2">What’s Special about the Special Edition</h2>
 				<p>There will only be 333 special-edition R8 GT RWD coupes available, distinguishable from other R8s
 					through
 					black
@@ -68,10 +110,18 @@
 					the V-10 engine, even the intake manifold on the GT is black. Basically, it looks like the ZL1 1LE
 					of
 					R8s.</p>
-				</row>
+				</div>
+				<div class="col-6">
+				<img class="float-end" src="snimki/r8-e.jpg"></div>
+				</div>
+<div class="liniq1">
+					<p></p>
+				</div>
 				<div class="row">
-				<img class="img-fluid" src="snimki/r8-e.jpg">
-				<h2>Interior</h2>
+				<div class="col-6">
+				<img class="end" src="snimki/r8-2.jpg"></div>
+				<div class="col-6">
+				<h2 class="main-h2">Interior</h2>
 				<p>Inside, it reflects the first-generation R8 GT with a black and red interior, including red
 					seatbelts.
 					Floor mats
@@ -79,15 +129,16 @@
 					with
 					a
 					sequential special edition build number embedded in the carbon-fiber center console.</p>
+				</div>
 				</row>
-				<img class="img-fluid" src="snimki/r8-2.jpg">
-
-				<h2>You can watch this video about interior, exterior and drive:</h2>
-				<video></video>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/-gvR2F6HpcY"
+			
+				<div class="row">
+				<h2 class="main-h2">You can watch this video about interior, exterior and drive:</h2></div>
+				<div class="row">
+				<iframe width="500" height="500" src="https://www.youtube.com/embed/-gvR2F6HpcY"
 					title="YouTube video player" frameborder="0"
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-					allowfullscreen></iframe>
+					allowfullscreen></iframe></div>
 			</div>
 
 
