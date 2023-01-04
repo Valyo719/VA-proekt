@@ -1,44 +1,51 @@
 body {
-  margin-top: 130px;
+	margin-top: 130px;
   background-color: white;
 }
-
-.container {
-  max-width: 2000px;
+.container{
+	max-width: 2000px;
 }
-
-.col-1{
-  padding: 0px, 0px, 0px, 0px;
+.row{
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
-.col-10{
-  padding: 0px, 0px, 0px, 0px;
-}
-.iframe{
-  margin-left: auto;
-  margin-right: auto;
-  width: 910px; 
-  height: 500px;
-}
-.row {
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-.row p {
-  text-align: center;
-  font-family: Georgia, Times, Serif;
-}
-
-.img-one {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  width: 800px;
-  height: auto;
-  display: block;
+.float-end img{
+	width: 600px;
+	height: auto;
+	display: block;
   margin-left: auto;
   margin-right: auto;
 }
-
+#img-one{
+	width: 800px;
+}
+.row img{
+	width: 600px;
+	height: auto;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.row p{
+	text-align: center;
+}
+.end{
+	margin-bottom: 30px;
+}
+.img-one{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	width: 800px;
+	height: auto;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+iframe{
+	height: 500px;
+	width: 500px;
+}
 .sp {
   padding: 1.25rem 1.875rem 4.375rem;
   column-count: 2;
@@ -82,25 +89,20 @@ body {
   height: auto;
 }
 
-#nav-img {
+#nav-img{
   width: 130px;
   height: 50px;
 }
-
 nav {
   height: 4em;
   background-color: white;
 }
-
 .index-r8 {
   position: relative;
   width: auto;
   height: auto;
 }
-.img-two{
-  display: block;
-  margin-top: 25px;
-}
+
 .r8-1 {
   color: black;
   display: block;
@@ -114,10 +116,10 @@ nav {
 .h1 {
   font-family: Georgia, Times, Serif;
   text-align: center;
-  font-size: x-large;
 }
 
 .h1 h1 {
+	font-size: 50px;
   padding-left: 15%;
   padding-right: 15%;
   /*text-decoration-line: underline;
@@ -126,8 +128,8 @@ nav {
 }
 
 .h1 p {
-  font-size: 22px;
-  padding-top: 20px;
+	font-size:22px;
+	padding-top: 20px;
   padding-left: 20%;
   padding-right: 20%;
 }
@@ -139,36 +141,30 @@ nav {
   text-decoration-style: solid;
   text-decoration-color: rgb(255, 187, 61);
 }
-
-.main-h2 {
-  padding-bottom: 15px;
-  font-family: Georgia, Times, Serif;
-  text-align: center;
-  text-decoration-line: underline;
-  text-decoration-style: solid;
-  text-decoration-color: rgb(255, 187, 61);
+.main-h2{
+	text-align: center;
 }
-
 .liniq {
-  margin-left: 200px;
-  margin-right: 200px;
   border-bottom-style: solid;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
+	margin-left:150px;
+	margin-right:150px;
 }
-
 .liniq1 {
   border-bottom-style: solid;
-  border-bottom-color: black;
-  margin-bottom: 30px;
-  margin-left: 400px;
-  margin-right: 400px;
+	border-bottom-color: orange;
+  margin-bottom: 35px;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 
 .favicon {
   width: auto;
   height: auto;
 }
-
+.float-end{
+	margin-top:30px;
+}
 img {
   width: 500px;
   height: auto;
