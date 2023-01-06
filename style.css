@@ -1,51 +1,68 @@
 body {
-	margin-top: 130px;
+  margin-top: 130px;
   background-color: white;
 }
-.container{
-	max-width: 2000px;
+
+.container {
+  max-width: 2000px;
 }
-.row{
-	padding-top: 40px;
-	padding-bottom: 40px;
+
+.row {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
-.float-end img{
-	width: 600px;
-	height: auto;
-	display: block;
+
+.float-end img {
+  width: 600px;
+  height: auto;
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
-#img-one{
-	width: 800px;
+
+#img-one {
+  width: 800px;
 }
-.row img{
-	width: 600px;
-	height: auto;
-	display: block;
+
+.row .card img {
+  width: auto;
+  height: auto;
+  display: block;
+}
+
+.row img {
+  width: 600px;
+  height: auto;
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.row p{
-	text-align: center;
+
+.row p {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
-.end{
-	margin-bottom: 30px;
+
+.end {
+  margin-bottom: 30px;
 }
-.img-one{
-	padding-top: 40px;
-	padding-bottom: 40px;
-	width: 800px;
-	height: auto;
-	display: block;
+
+.img-one {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 800px;
+  height: auto;
+  display: block;
   margin-left: auto;
   margin-right: auto;
-  
+
 }
-iframe{
-	height: 500px;
-	width: 500px;
+
+iframe {
+  height: 500px;
+  width: 500px;
 }
+
 .sp {
   padding: 1.25rem 1.875rem 4.375rem;
   column-count: 2;
@@ -82,21 +99,29 @@ iframe{
   text-align: center;
   border: thick solid #333;
   background-color: rgb(241, 247, 247);
-  max-width: 70rem;
+  max-width: 60rem;
   position: relative;
   margin: 1.25rem auto;
   overflow: hidden;
   height: auto;
 }
 
-#nav-img{
+.img-fluid.card-img-top img {
+  border: thick solid #333;
+  width: fit-content;
+  margin: 0, 0, 0, 0;
+}
+
+#nav-img {
   width: 130px;
   height: 50px;
 }
+
 nav {
   height: 4em;
   background-color: white;
 }
+
 .index-r8 {
   position: relative;
   width: auto;
@@ -119,7 +144,7 @@ nav {
 }
 
 .h1 h1 {
-	font-size: 50px;
+  font-size: 50px;
   padding-left: 15%;
   padding-right: 15%;
   text-decoration-line: underline;
@@ -129,8 +154,8 @@ nav {
 }
 
 .h1 p {
-	font-size:22px;
-	padding-top: 20px;
+  font-size: 22px;
+  padding-top: 20px;
   padding-left: 20%;
   padding-right: 20%;
 }
@@ -143,8 +168,10 @@ nav {
   text-decoration-color: rgb(255, 187, 61);
   text-decoration-thickness: 2px;
 }
-.main-h2{
-	text-align: center;
+
+.main-h2 {
+  font-family: Georgia, Times, Serif;
+  text-align: center;
   text-decoration-line: underline;
   text-decoration-style: solid;
   text-decoration-color: rgb(255, 187, 61);
@@ -153,20 +180,22 @@ nav {
 
 .liniq1 {
   border-bottom-style: solid;
-	border-bottom-color: orange;
+  border-bottom-color: orange;
   border-bottom-width: 2px;
   margin-bottom: 35px;
-	margin-left: 20%;
-	margin-right: 20%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .favicon {
   width: auto;
   height: auto;
 }
-.float-end{
-	margin-top:30px;
+
+.float-end {
+  margin-top: 30px;
 }
+
 img {
   width: 500px;
   height: auto;
