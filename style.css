@@ -122,9 +122,10 @@ nav {
 	font-size: 50px;
   padding-left: 15%;
   padding-right: 15%;
-  /*text-decoration-line: underline;
+  text-decoration-line: underline;
   text-decoration-style: solid;
-  text-decoration-color: rgb(255, 187, 61);*/
+  text-decoration-color: rgb(255, 187, 61);
+  text-decoration-thickness: 2px;
 }
 
 .h1 p {
@@ -140,19 +141,20 @@ nav {
   text-decoration-line: underline;
   text-decoration-style: solid;
   text-decoration-color: rgb(255, 187, 61);
+  text-decoration-thickness: 2px;
 }
 .main-h2{
 	text-align: center;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: rgb(255, 187, 61);
+  text-decoration-thickness: 2px;
 }
-.liniq {
-  border-bottom-style: solid;
-  margin-bottom: 60px;
-	margin-left:150px;
-	margin-right:150px;
-}
+
 .liniq1 {
   border-bottom-style: solid;
 	border-bottom-color: orange;
+  border-bottom-width: 2px;
   margin-bottom: 35px;
 	margin-left: 20%;
 	margin-right: 20%;
@@ -186,96 +188,3 @@ img {
   padding: 15px;
   color: orange;
 }
-
-/*.column {
-  float: left;
-  padding: 10px;
-}
-
-.column.side {
-  width: 25%;
-  background-color: transparent;
-}
-
-.column.middle {
-  width: 50%;
-  text-align: center;
-  font-family: Georgia, Times, Serif;
-}
-
-.column.middle h2 {
-  text-decoration-line: underline;
-  text-decoration-style: solid;
-  text-decoration-color: rgb(255, 187, 61);
-}
-
-.column.middle img {
-  width: 100%;
-  height: auto;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-@media screen and (max-width: 1200px) {
-  .column.side {
-    width: 15%;
-  }
-
-  .column.middle {
-    width: 70%;
-  }
-}
-
-@media screen and (min-width: 801px) {
-  .column.middle h2 {
-    font-size: 40px;
-  }
-
-  .column.middle p {
-    font-size: 20px;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .column.side {
-    width: 10%;
-  }
-
-  .column.middle {
-    width: 80%;
-  }
-
-  .column.middle h2 {
-    font-size: 30px;
-  }
-
-  .column.middle p {
-    font-size: 20px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .h1 {
-    font-size: 20px;
-  }
-
-  .column.side {
-    width: 5%;
-  }
-
-  .column.middle {
-    width: 90%;
-  }
-
-  .column.middle h2 {
-    font-size: 30px;
-  }
-
-  .column.middle p {
-    font-size: 20px;
-  }
-}*/
